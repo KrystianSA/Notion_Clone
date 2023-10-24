@@ -1,28 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics.Metrics;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-
+using System.Windows.Threading;
 namespace Notion_Clone
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        private DispatcherTimer _dispatcherTimer = new DispatcherTimer();
+        private const int startTimeInSecond = 1;
+        private int counter=0;
         public MainWindow()
         {
             InitializeComponent();
+        }
+        public void StartTimeButton(object sender, RoutedEventArgs e) 
+        {
+            _dispatcherTimer.Interval = TimeSpan.FromSeconds(startTimeInSecond);
+            _dispatcherTimer.Tick += TimerTick;
+            _dispatcherTimer.Start();
+        }
+        public void StopTimeButton(object sender, RoutedEventArgs e)
+        {
+            _dispatcherTimer.Tick -= TimerTick;
+            _dispatcherTimer.Stop();
+        }
+        public void TimerTick(object sender, EventArgs e)
+        {
+            lblTime.Content = TimeSpan.FromSeconds(counter++).ToString(@"hh\:mm\:ss");
         }
     }
 }

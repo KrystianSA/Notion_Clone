@@ -7,7 +7,6 @@ C:\Users\pucke\OneDrive\Pulpit\Wszystko\C#\Notion-Clone\Notion-Clone\Notion-Clon
 C:\Users\pucke\OneDrive\Pulpit\Wszystko\C#\Notion-Clone\Notion-Clone\Notion-Clone\obj\Debug\net7.0-windows\MainWindow.g.cs
 C:\Users\pucke\OneDrive\Pulpit\Wszystko\C#\Notion-Clone\Notion-Clone\Notion-Clone\obj\Debug\net7.0-windows\App.g.cs
 C:\Users\pucke\OneDrive\Pulpit\Wszystko\C#\Notion-Clone\Notion-Clone\Notion-Clone\obj\Debug\net7.0-windows\Notion-Clone_MarkupCompile.cache
-C:\Users\pucke\OneDrive\Pulpit\Wszystko\C#\Notion-Clone\Notion-Clone\Notion-Clone\obj\Debug\net7.0-windows\Notion-Clone_MarkupCompile.lref
 C:\Users\pucke\OneDrive\Pulpit\Wszystko\C#\Notion-Clone\Notion-Clone\Notion-Clone\obj\Debug\net7.0-windows\MainWindow.baml
 C:\Users\pucke\OneDrive\Pulpit\Wszystko\C#\Notion-Clone\Notion-Clone\Notion-Clone\obj\Debug\net7.0-windows\Notion-Clone.g.resources
 C:\Users\pucke\OneDrive\Pulpit\Wszystko\C#\Notion-Clone\Notion-Clone\Notion-Clone\obj\Debug\net7.0-windows\Notion-Clone.GeneratedMSBuildEditorConfig.editorconfig
