@@ -1,10 +1,9 @@
 ﻿<Window x:Class="Notion_Clone.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title ="Timer" Height="150" Width="250">
+        Title ="Main" HorizontalAlignment="Center" Height="150" Width="250">
     <Grid>
-        <Button Width="60" Margin="5" VerticalAlignment="Bottom" HorizontalAlignment="Left" Click="StartTimeButton">Start</Button>
-        <Button Width="60" Margin="5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Click="StopTimeButton">Stop</Button>
-        <Label Name="lblTime"  FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Stretch"/>
+        <Button Width="60" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Right" Click="ButtonForTimer">Timer</Button>
+        <Button Width="60" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Left" Click="ButtonForList">List</Button>
     </Grid>
 </Window>
