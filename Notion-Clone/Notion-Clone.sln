@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notion-Clone", "Notion-Clone\Notion-Clone.csproj", "{7658EFE9-9088-4569-A57E-3883B85DFB11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notion-Clone", "Notion-Clone\Notion-Clone.csproj", "{7658EFE9-9088-4569-A57E-3883B85DFB11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notion-Clone.Tests", "Notion-Clone.Tests\Notion-Clone.Tests.csproj", "{8F47EBF7-0817-4455-A31E-5E47C0331D02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notion-Clone.Tests", "Notion-Clone.Tests\Notion-Clone.Tests.csproj", "{8F47EBF7-0817-4455-A31E-5E47C0331D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notion-Clone.Api", "Notion-Clone.Api\Notion-Clone.Api.csproj", "{C987D69F-CFE3-4AAA-80B7-49216A586E28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8F47EBF7-0817-4455-A31E-5E47C0331D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F47EBF7-0817-4455-A31E-5E47C0331D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F47EBF7-0817-4455-A31E-5E47C0331D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C987D69F-CFE3-4AAA-80B7-49216A586E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C987D69F-CFE3-4AAA-80B7-49216A586E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C987D69F-CFE3-4AAA-80B7-49216A586E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C987D69F-CFE3-4AAA-80B7-49216A586E28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
