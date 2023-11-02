@@ -8,6 +8,6 @@ public class Exercise
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
     public string? Id { get; set; }
-    public string Kind { get; set; } 
+    //public string Kind { get; set; } 
     public string Body { get; set; }
 }

@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:Notion_Clone"
         mc:Ignorable="d"
         Title="List" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <StackPanel Margin="10">
+        <TextBox AcceptsReturn="True" TextWrapping="Wrap" SpellCheck.IsEnabled="True" Name="text"/>
+        <Button HorizontalAlignment="Center" Margin="50" Click="btnAddTask">Add Task</Button>
+    </StackPanel>
+  
 </Window>

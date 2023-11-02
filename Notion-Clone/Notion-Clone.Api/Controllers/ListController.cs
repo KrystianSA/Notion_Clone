@@ -25,5 +25,6 @@ namespace Notion_Clone.Api.Controllers
             await _listService.CreateAsync(newTask);
             return CreatedAtAction(nameof(Get), new { id = newTask.Id }, newTask);
         }
+
     }
 }
